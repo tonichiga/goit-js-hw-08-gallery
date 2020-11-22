@@ -56,17 +56,17 @@ galleryItems.forEach(({ preview, original, description }, index, i) => {
         };
     });
 
-    window.addEventListener('keydown', event => {
-        if (event.code === 'ArrowRight') {
-            if (galleryItems[index + 1] === galleryItems.length) {    
-                return;
-            } e
+    // window.addEventListener('keydown', event => {
+    //     if (event.code === 'ArrowRight') {
+    //         if (galleryItems[index + 1] === galleryItems.length) {    
+    //             return;
+    //         } e
 
-                console.log(galleryItems[index + 1].original)
+    //             console.log(galleryItems[index + 1].original)
             
-            // imageModalRef.src = galleryItems[index + 1].original;
-        };
-    });
+    //         // imageModalRef.src = galleryItems[index + 1].original;
+    //     };
+    // });
 
     btnCloseRef.addEventListener('click', event => {
         modalRef.classList.remove('is-open');
