@@ -133,6 +133,34 @@ body {
   background-size: 60%;
   background-repeat: no-repeat;
 }
+.lightbox__arrow-left {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 98px;
+  height: 97px;
+  left: 25px;
+  top: 350px;
+  background-color: transparent;
+  background-size: contain;
+  background-image: url('../images/left-arrow.svg');
+  border: none;
+}
+.lightbox__arrow-right {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 98px;
+  height: 97px;
+  right: 25px;
+  top: 350px;
+  background-color: transparent;
+  background-size: contain;
+  background-image: url('../images/right-arrow.svg');
+  border: none;
+}
 
 .lightbox__button:hover,
 .lightbox__button:focus {
