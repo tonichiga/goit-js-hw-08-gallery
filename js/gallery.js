@@ -144,25 +144,3 @@ galleryItems.forEach(({ preview, original, description }, index, i) => {
         };
     };
 });
-
-// window.addEventListener('keydown', e => {
-//     if (e.code === 'ArrowRight') {
-//         return number = 1
-//     }
-// });
-// window.addEventListener('keydown', e => {
-//     if (e.code === 'ArrowLeft') {
-//         return number = 1
-//     }
-// });
-
-// leftArrowRef.addEventListener('click', e => {
-//     if (e.target.nodeName === 'BUTTON') {
-//         return number = 1
-//     }
-// });
-// rightArrowRef.addEventListener('click', e => {
-//     if (e.target.nodeName === 'BUTTON') {
-//         return number = 1
-//     }
-// });
